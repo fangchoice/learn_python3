@@ -154,7 +154,7 @@ def generate_pdf_with_picture(startPage, key, input_filepath):
     jpg_files = png2jpg(startPage, key_parts, png_files)
 
     # merge
-    tql_files = list_files("/usr/TQL", "*.pdf")
+    tql_files = list_files("/usr/TEMP", "*.pdf")
     for tql_filepath in tql_files:
         tql_name, _ = os.path.splitext(os.path.basename(tql_filepath))
 
