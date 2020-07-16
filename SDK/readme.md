@@ -6,8 +6,11 @@
   python3.6
 
 # requirements.txt
+
   hid==1.0.4
+  
   hidapi==0.9.0.post3
+  
   PyQt5==5.14.2
 
 
