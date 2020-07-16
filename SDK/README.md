@@ -5,7 +5,7 @@
 ## python环境
   python3.6
 
-# requirements.txt
+## requirements.txt
 
   hid==1.0.4
   
